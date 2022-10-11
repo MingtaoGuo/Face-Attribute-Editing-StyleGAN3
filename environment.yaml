@@ -413,4 +413,4 @@ dependencies:
     - torch==1.12.0+cu113
     - torchaudio==0.12.0+rocm5.1.1
     - torchvision==0.13.0+cu113
-prefix: /data1/Conda/gmt/envs/gmt
+prefix: /data
