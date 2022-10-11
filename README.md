@@ -49,7 +49,7 @@ python text2stylegan.py --text "a woman with blue eyes" --opt_space w --learning
 |-|-|-|-|-|
 |**Text2img**|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan1.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan2.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan3.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan4.jpg)|
 
-# To be continued
+# InterfaceGAN and GANSpace To be continued ...
 ## Author 
 Mingtao Guo
 E-mail: gmt798714378@hotmail.com
