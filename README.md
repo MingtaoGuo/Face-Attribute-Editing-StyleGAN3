@@ -45,7 +45,7 @@ python e4e_train.py --data_path FFHQ --batch_size 4 --epoch 20 --arcface saved_m
 ``` 
 python text2stylegan.py --text "a woman with blue eyes" --opt_space w --learning_rate 0.02
 ```
-|Description|a european woman with blue eyes|an old asian man with gray hair|an asian woman with black long straight hair| a woman with blond hair is smiling|
+|Description|an european woman with blue eyes|an old asian man with gray hair|an asian woman with black long straight hair| a woman with blond hair is smiling|
 |-|-|-|-|-|
 |**Text2img**|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan1.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan2.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan3.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan4.jpg)|
 
