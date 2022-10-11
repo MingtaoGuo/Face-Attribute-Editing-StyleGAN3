@@ -55,15 +55,25 @@ python interfacegan_edit.py --stylegan stylegan3-t-ffhq-1024x1024.pkl --boundary
 ```
 |![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_input1.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_input2.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_input3.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_input4.jpg)|
 |-|-|-|-|
-|**---------glasses----------**|**---------beard----------**|**---------young----------**|**---------smile----------**|
+|**--------glasses---------**|**---------beard---------**|**---------young---------**|**---------smile---------**|
 |![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit1.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit2.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit3.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit4.jpg)|
 
 ### Inference GANSpace
 ``` 
-python ganspace.py --stylegan stylegan3-t-ffhq-1024x1024.pkl --v_idxs 0 --layer_idxs 0-18
+python ganspace.py --stylegan stylegan3-t-ffhq-1024x1024.pkl --v_idxs 0 --layer_idxs 0-18 --n_samples 10000
 ```
+|v_0, layer_1_18 (gender)|
+|-|
+|![](https://github.com/MingtaoGuo/DDPM_pytorch/blob/main/resources/v_0_l_all_.jpg)|
 
-# To be continued ...
+|v_1, layer_1_18 (rotate)|
+|-|
+|![](https://github.com/MingtaoGuo/DDPM_pytorch/blob/main/resources/v_1_l_all_.jpg)|
+
+|v_2, layer_1_18 (rotate + age+ bkg)|
+|-|
+|![](https://github.com/MingtaoGuo/DDPM_pytorch/blob/main/resources/v_2_l_all_.jpg)|
+
 ## Author 
 Mingtao Guo
 E-mail: gmt798714378@hotmail.com
