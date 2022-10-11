@@ -32,10 +32,11 @@ All dependencies for defining the environment are provided in `environment.yaml`
 - Download the StyleGAN3 pretrained model from NVlabs [stylegan3-t-ffhq-1024x1024.pkl](
 https://api.ngc.nvidia.com/v2/models/nvidia/research/stylegan3/versions/1/files/stylegan3-t-ffhq-1024x1024.pkl) 
 - Download the e4e pretrained model [FFHQ-e4e-stylegan3]()
-`
+``` 
+python e4e_inference.py --img_path resources/imgs/1.png --pretrain saved_models/13_12500_pspEncoder.pth
+```
 
 ## Author 
 Mingtao Guo
 E-mail: gmt798714378@hotmail.com
 
-https://api.ngc.nvidia.com/v2/models/nvidia/research/stylegan3/versions/1/files/stylegan3-t-ffhq-1024x1024.pkl
