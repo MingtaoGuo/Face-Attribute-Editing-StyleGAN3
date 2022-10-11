@@ -59,8 +59,9 @@ python interfacegan_edit.py --stylegan stylegan3-t-ffhq-1024x1024.pkl --boundary
 |![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit1.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit2.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit3.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit4.jpg)|
 
 ### Train InterfaceGAN
+We use a vision-language model [CLIP](https://github.com/openai/CLIP) as face attribute classifier to predict generated face images from StyleGAN.
 ``` 
-python interfacegan_gendata.py 
+python interfacegan_gendata.py --n_samples 200000 --stylegan stylegan3-t-ffhq-1024x1024.pkl 
 python interfacegan_predict_attr.py --attr_text glasses
 python interfacegan_linear_svm.py --path_txt resources/interfacegan/glasses_label.txt --boundary_save resources/interfacegan/boundary_glasses.pth
 ```
