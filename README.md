@@ -47,7 +47,7 @@ python text2stylegan.py --text "a woman with blue eyes" --opt_space w --learning
 ```
 |Description|a woman with blue eyes|an old asian man with gray hair|an asian woman with black long straight hair| a woman with blond hair is smiling|
 |-|-|-|-|-|
-|Generated|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan1.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan2.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan3.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan4.jpg)|
+|**Generated**|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan1.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan2.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan3.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan4.jpg)|
 
 # To be continued
 ## Author 
