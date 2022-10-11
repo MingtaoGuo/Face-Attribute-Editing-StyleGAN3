@@ -26,7 +26,7 @@ wget https://api.ngc.nvidia.com/v2/models/nvidia/research/stylegan3/versions/1/f
 We recommend running this repository using [Anaconda](https://docs.anaconda.com/anaconda/install/). 
 All dependencies for defining the environment are provided in `environment.yaml`.
 
-### Inference
+### Inference e4e
 - Download the e4e pretrained model [FFHQ-e4e-stylegan3](https://drive.google.com/file/d/11OKcGJniqmvf_J6Mym_erqCy5Mm1wfmO/view?usp=sharing)
 ``` 
 python e4e_inference.py --img_path resources/imgs/1.png --pretrain saved_models/13_12500_pspEncoder.pth
@@ -35,6 +35,12 @@ python e4e_inference.py --img_path resources/imgs/1.png --pretrain saved_models/
 |-|-|-|-|-|
 |**inverse**|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/inverse1.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/inverse2.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/inverse3.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/inverse4.jpg)|
 
+### Train e4e
+- Download the FFHQ dataset from [NVlabs](https://github.com/NVlabs/ffhq-dataset)
+- Download the face recognition model arcface from [insightface](https://github.com/deepinsight/insightface/tree/master/recognition/arcface_torch) Go to  Baidu Drive **->** arcface_torch **->** glint360k_cosface_r50_fp16_0.1 **->** backbone.pth
+``` 
+python e4e_train.py --data_path FFHQ --batch_size 4 --epoch 20 --arcface saved_models/backbone.pth
+```
 ## Author 
 Mingtao Guo
 E-mail: gmt798714378@hotmail.com
