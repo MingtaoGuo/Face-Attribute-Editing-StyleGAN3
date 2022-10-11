@@ -49,7 +49,16 @@ python text2stylegan.py --text "a woman with blue eyes" --opt_space w --learning
 |-|-|-|-|-|
 |**Text2img**|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan1.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan2.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan3.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/clip2stylegan4.jpg)|
 
-# InterfaceGAN and GANSpace To be continued ...
+### Inference InterfaceGAN
+``` 
+python interfacegan_edit.py --stylegan stylegan3-t-ffhq-1024x1024.pkl --boundary resources/interfacegan/boundary_glasses.pth
+```
+|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_input1.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_input2.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_input3.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_input4.jpg)|
+|-|-|-|-|
+|**------------glasses------------**|**------------beard------------**|**------------young------------**|**------------smile------------**|
+|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit1.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit2.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit3.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit4.jpg)|
+
+# GANSpace To be continued ...
 ## Author 
 Mingtao Guo
 E-mail: gmt798714378@hotmail.com
