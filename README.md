@@ -31,9 +31,9 @@ All dependencies for defining the environment are provided in `environment.yaml`
 ``` 
 python e4e_inference.py --img_path resources/imgs/1.png --pretrain saved_models/13_12500_pspEncoder.pth
 ```
-|image|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/resources/imgs/1.png)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/resources/imgs/2.png)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/resources/imgs/3.png)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/resources/imgs/4.png)|
+|Image|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/resources/imgs/1.png)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/resources/imgs/2.png)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/resources/imgs/3.png)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/resources/imgs/4.png)|
 |-|-|-|-|-|
-|**inverse**|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/inverse1.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/inverse2.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/inverse3.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/inverse4.jpg)|
+|**Inverse**|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/inverse1.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/inverse2.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/inverse3.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/inverse4.jpg)|
 
 ### Train e4e
 - Download the FFHQ dataset from [NVlabs](https://github.com/NVlabs/ffhq-dataset)
@@ -41,6 +41,15 @@ python e4e_inference.py --img_path resources/imgs/1.png --pretrain saved_models/
 ``` 
 python e4e_train.py --data_path FFHQ --batch_size 4 --epoch 20 --arcface saved_models/backbone.pth
 ```
+### Inference Text2StyleGAN
+``` 
+python text2stylegan.py --text "a woman with blue eyes" --opt_space w --learning_rate 0.02
+```
+|Description|a woman with blue eyes|an old asian man with gray hair|an asian woman with black long straight hair||
+|-|-|-|-|-|
+|Generated|||||
+
+# To be continued
 ## Author 
 Mingtao Guo
 E-mail: gmt798714378@hotmail.com
