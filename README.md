@@ -78,3 +78,9 @@ python ganspace.py --stylegan stylegan3-t-ffhq-1024x1024.pkl --v_idxs 0 --layer_
 Mingtao Guo
 E-mail: gmt798714378@hotmail.com
 
+## Reference
+[1]. Tov, Omer, et al. "Designing an encoder for stylegan image manipulation." ACM Transactions on Graphics (TOG) 40.4 (2021): 1-14.
+
+[2]. Shen, Yujun, et al. "Interfacegan: Interpreting the disentangled face representation learned by gans." IEEE transactions on pattern analysis and machine intelligence (2020).
+
+[3]. Härkönen, Erik, et al. "Ganspace: Discovering interpretable gan controls." Advances in Neural Information Processing Systems 33 (2020): 9841-9850.
