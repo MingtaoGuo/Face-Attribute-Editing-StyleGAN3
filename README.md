@@ -58,6 +58,13 @@ python interfacegan_edit.py --stylegan stylegan3-t-ffhq-1024x1024.pkl --boundary
 |**--------glasses---------**|**---------beard---------**|**---------young---------**|**---------smile---------**|
 |![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit1.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit2.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit3.jpg)|![](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3/blob/main/IMGS/interfacegan_edit4.jpg)|
 
+### Train InterfaceGAN
+``` 
+python interfacegan_gendata.py 
+python interfacegan_predict_attr.py --attr_text glasses
+python interfacegan_linear_svm.py --path_txt resources/interfacegan/glasses_label.txt --boundary_save resources/interfacegan/boundary_glasses.pth
+```
+
 ### Inference GANSpace
 ``` 
 python ganspace.py --stylegan stylegan3-t-ffhq-1024x1024.pkl --v_idxs 0 --layer_idxs 0-18 --n_samples 10000
