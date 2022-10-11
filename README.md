@@ -1,8 +1,6 @@
 # Face-Attribute-Editing-StyleGAN3
 Face-Attribute-Editing-Encoder4Editing-Text2StyleGAN-InterfaceGAN-GANSpace-Based-on-StyleGAN3
 
-https://api.ngc.nvidia.com/v2/models/nvidia/research/stylegan3/versions/1/files/stylegan3-t-ffhq-1024x1024.pkl
-
 ## Introduction
 --------------
 
