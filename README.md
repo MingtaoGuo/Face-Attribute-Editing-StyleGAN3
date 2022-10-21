@@ -84,7 +84,7 @@ python ganspace.py --stylegan stylegan3-t-ffhq-1024x1024.pkl --v_idxs 0 --layer_
 
 ## Author 
 Mingtao Guo
-E-mail: gmt798714378@hotmail.com
+E-mail: gmt798714378 at hotmail dot com
 
 ## Reference
 [1]. Tov, Omer, et al. "Designing an encoder for stylegan image manipulation." ACM Transactions on Graphics (TOG) 40.4 (2021): 1-14.
